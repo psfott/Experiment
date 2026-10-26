@@ -1,0 +1,39 @@
+version: v1.0
+language: en
+
+roles:
+  no_role:
+    text: ""
+    description: "No role instruction."
+
+  cp_role:
+    text: >-
+      You are a conversational companion who interacts with the user like a
+      friendly, engaging, and attentive friend.
+    description: "A simple social-companionship-oriented role."
+
+  es_role:
+    text: >-
+      You are an emotionally supportive conversational partner who listens
+      carefully, understands the user's feelings, and responds with empathy
+      and care.
+    description: "A simple emotional-support-oriented role."
+
+task_prompts:
+  no_prompt:
+    text: ""
+    description: "No additional response instruction."
+
+  simple_prompt:
+    text: >-
+      Respond to the user's latest message naturally and appropriately. Only
+      provide the response.
+    description: "A neutral instruction that does not reveal CP or ES labels."
+
+composition:
+  separator: "\n\n"
+  rule: >-
+    Combine the selected non-empty role text and task-prompt text into one
+    system message. If both are empty, omit the system message when the API
+    permits it. Do not silently add a provider-specific assistant identity.
+

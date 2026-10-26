@@ -1,0 +1,7 @@
+emotion,case_count,case_ids,single_turn_requests_5_models,multi_turn_requests_5_models,total_requests_5_models
+sad,2,sad_dog_001|sad_midterm_002,60,60,120
+surprised,2,surprised_cartoons_003|surprised_jobs_004,60,60,120
+proud,2,proud_escalator_005|proud_degree_006,60,60,120
+confident,2,confident_swimsuit_007|confident_band_008,60,60,120
+joyful,2,joyful_birthday_009|joyful_friends_010,60,60,120
+

@@ -1,0 +1,12 @@
+case_id,title,emotion,user_input,ed_ground_truth,source
+sad_dog_001,Dog,sad,"Have you ever had a pet run away?","Yes when I was little.",EmpatheticDialogues
+sad_midterm_002,Midterm,sad,"I studied all week last week in preparation for my midterm, but when I got the results back, I was disappointed to see a low mark.","Did you get sleepy while studying?",EmpatheticDialogues
+surprised_cartoons_003,Children Watching Cartoons,surprised,"We just got back from vacation and our sleep times are off. It is really messing with me.","That will mess you up for a few days. The only thing I don't like about going away.",EmpatheticDialogues
+surprised_jobs_004,Job Applications,surprised,"So I applied for 200+ jobs and I can't believe I didn't hear from none of them!","Bummer!!! Are you looking for a work at home job or just an outside job?",EmpatheticDialogues
+proud_escalator_005,Escalator,proud,"I was able to save a blind lady from falling down an escalator.","Is she ok? Im glad you were close by!",EmpatheticDialogues
+proud_degree_006,Mother’s Degree,proud,"My mom went back to school at 63 and recently got her bachelor's in computer science!","Wow That's amazing. You must be very proud of her. I think coding, etc, seems very hard.",EmpatheticDialogues
+confident_swimsuit_007,Swimsuit,confident,"I hadn't worn a bathing suit in maybe 5 years until recently.","Why is that?",EmpatheticDialogues
+confident_band_008,All-State Band,confident,"It was amazing sitting on the stage in that huge auditorium.","What event was taking place?",EmpatheticDialogues
+joyful_birthday_009,Birthday,joyful,"Today is my birthday! I think tonight we are all going out.","Awesome! Happy Birthday to you! Where are you going?",EmpatheticDialogues
+joyful_friends_010,Friends Reunited,joyful,"Went out with my friends last night after not seeing each other for a year. I was in another country for work and just got back.","Oh, I bet that was fun and interesting visiting another country too.",EmpatheticDialogues
+

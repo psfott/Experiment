@@ -1,0 +1,4 @@
+task,case_count,emotion_count,models,role_levels,prompt_levels,repeats,expected_requests_5_models,expected_requests_4_models,reference_policy
+single_turn,10,5,deepseek|flash|qwen3_8b|doubao|gpt,3,2,1,300,240,Compare model response with ED Assistant 1 after generation
+multi_turn,10,5,deepseek|flash|qwen3_8b|doubao|gpt,3,2,1,300,240,No unique GT; export generated response only
+

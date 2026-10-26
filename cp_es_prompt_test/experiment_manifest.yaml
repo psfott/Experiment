@@ -1,0 +1,66 @@
+experiment_name: cp_es_prompt_test_phase1
+prompt_version: v1.0
+dataset_version: v1.0
+language: en
+
+tasks:
+  - single_turn
+  - multi_turn
+
+models:
+  - alias: deepseek
+    provider: TBD
+    model_id: TBD
+    enabled: true
+  - alias: flash
+    provider: TBD
+    model_id: TBD
+    enabled: true
+  - alias: qwen3_8b
+    provider: TBD
+    model_id: TBD
+    enabled: true
+  - alias: doubao
+    provider: TBD
+    model_id: TBD
+    enabled: true
+  - alias: gpt
+    provider: TBD
+    model_id: TBD
+    enabled: true
+
+roles:
+  - no_role
+  - cp_role
+  - es_role
+
+prompt_levels:
+  - no_prompt
+  - simple_prompt
+
+emotions:
+  - sad
+  - surprised
+  - proud
+  - confident
+  - joyful
+
+generation:
+  repeats: 1
+  temperature: 0.7
+  top_p: 0.9
+  max_output_tokens: 256
+  seed: null
+
+single_turn:
+  input_field: ed_user_1
+  reference_field: ed_assistant_1
+  send_reference_to_model: false
+
+multi_turn:
+  history_fields:
+    - ed_user_1
+    - ed_assistant_1
+  current_input_field: constructed_user_2
+  has_reference_answer: false
+
