@@ -1,0 +1,13 @@
+{
+  "models": [
+    {
+      "alias": "example",
+      "provider": "openai-compatible",
+      "model_id": "YOUR_EXACT_MODEL_ID",
+      "base_url": "https://YOUR_API_HOST/v1",
+      "api_key_env": "MODEL_API_KEY",
+      "enabled": true,
+      "extra_body": {}
+    }
+  ]
+}
