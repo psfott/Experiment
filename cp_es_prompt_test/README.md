@@ -1,6 +1,8 @@
 # CP–ES Prompt Test（第一阶段）
 
-本目录保存单轮和多轮实验的固定材料、实验条件与输出规范。本阶段不包含任何模型 API 调用代码。
+本目录保存单轮和多轮实验的固定材料、实验条件、输出规范及 API 运行脚本。运行器支持 OpenAI-compatible Chat Completions 接口；原生 Gemini、Anthropic 接口需要兼容网关或另行适配。
+
+安装、密钥配置、试运行、失败续跑及匿名导出见 [RUNNING.md](RUNNING.md)。
 
 ## 1. 任务划分
 

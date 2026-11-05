@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+**/models.local.yaml
+**/__pycache__/
+cp_es_prompt_test/outputs/*
+!cp_es_prompt_test/outputs/.gitkeep

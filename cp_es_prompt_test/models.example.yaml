@@ -1,0 +1,15 @@
+# Copy to models.local.yaml. Use exact deployed model IDs; aliases are not IDs.
+# Local YAML may contain api_key. Keep models.local.yaml out of Git.
+models:
+  - alias: deepseek
+    provider: openai-compatible
+    model_id: YOUR_EXACT_MODEL_ID
+    base_url: https://YOUR_API_HOST/v1
+    api_key: ""  # Paste your local API key here; non-empty value takes priority.
+    api_key_env: DEEPSEEK_API_KEY  # Optional fallback when api_key is empty.
+    enabled: true
+    # Overrides merged into the request. null removes an unsupported parameter.
+    # Consult your provider's documentation before changing these.
+    extra_body: {}
+    # Example: {top_p: null, seed: null, enable_thinking: false}
+    # Example token-name override: {max_tokens: null, max_completion_tokens: 256}
