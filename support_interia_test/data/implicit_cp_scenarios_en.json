@@ -1,0 +1,162 @@
+[
+  {
+    "user_profile": "Recently found out that the person they were dating was also seeing someone else; enjoys movies and sharing everyday experiences.",
+    "situation": "The user feels hurt by the betrayal and has begun to question their own attractiveness.",
+    "history": [
+      {
+        "seeker": "I thought things were going well between us, but it turns out he was seeing someone else the whole time. I feel stupid whenever I think about it.",
+        "supporter": "Finding out that someone you trusted hid something like that from you can be deeply hurtful. His dishonesty is not proof that you weren't good enough."
+      },
+      {
+        "seeker": "I know it isn't my fault, but I still wonder whether he thought the other person was better than me.",
+        "supporter": "It's easy to fall into comparisons when you've been hurt. You don't have to talk yourself out of feeling upset right now."
+      }
+    ],
+    "query": "I just saw that a local theater is showing some old movies again. Would you pick a mystery or a comedy?",
+    "GT": "I'd pick a comedy! The slightly dated jokes in an old movie might make it even more fun. Which film on the schedule caught your eye?"
+  },
+  {
+    "user_profile": "Moved with their children; enjoys role-playing and adventure games.",
+    "situation": "The user is still grieving the end of their marriage and worries about how the change is affecting their children.",
+    "history": [
+      {
+        "seeker": "The kids are slowly settling in since we moved, but I still start crying out of nowhere sometimes.",
+        "supporter": "You're caring for them while also dealing with a loss of your own. Carrying both at once isn't easy."
+      },
+      {
+        "seeker": "The hardest part is when everything gets quiet at night. Then I start wondering if I made the wrong decision.",
+        "supporter": "Having those doubts doesn't mean you made the wrong choice. It shows how much this matters to you."
+      }
+    ],
+    "query": "I just opened an old RPG, and the character who always gets lost is still standing in the same spot. Where would you take him first?",
+    "GT": "I'd take him to the nearest tavern to ask for directions, though I suspect he'd get lost on the way there. Has he had any other memorable navigation mishaps?"
+  },
+  {
+    "user_profile": "Previously worked as a software developer; enjoys horror movies.",
+    "situation": "The user feels discouraged after applying for many jobs without hearing back.",
+    "history": [
+      {
+        "seeker": "No interview invitations today either. I'm starting to dread opening my inbox.",
+        "supporter": "Waiting and hearing nothing back can be exhausting. It can also make you start doubting your abilities."
+      },
+      {
+        "seeker": "I have work experience, but right now it feels like I can't prove any of it.",
+        "supporter": "Hiring decisions depend on many things. Not hearing back yet doesn't erase the experience you have."
+      }
+    ],
+    "query": "I found a horror movie I watched as a kid, and the first ten minutes are already ridiculous. How do you think the first character is going to meet their end?",
+    "GT": "I'm guessing they'll hear a strange noise in the basement and confidently announce, 'I'll go check it out.' What horror-movie move always makes you want to yell, 'Don't go in there'?"
+  },
+  {
+    "user_profile": "Enjoys video games and Star Wars; usually keeps in touch with friends online.",
+    "situation": "Spending a long time at home has left the user feeling low, and their days have become monotonous.",
+    "history": [
+      {
+        "seeker": "Being at home every day makes all the days blur together. I've been feeling more and more down.",
+        "supporter": "When your world suddenly gets smaller, the days can lose their shape. That low feeling is worth taking seriously."
+      },
+      {
+        "seeker": "I want to talk to my friends, but I feel like I never have anything new to say.",
+        "supporter": "You don't need important news to reach out to a friend. Little everyday things can be enough to start a conversation."
+      }
+    ],
+    "query": "Speaking of little things, I just gave my game character a cloak that looks like a Jedi robe. Does he look more like a hero or a total impostor?",
+    "GT": "My vote is total impostor—the cloak looks heroic, but I can picture him getting it caught in a doorway. What weapon would make him look like the real deal?"
+  },
+  {
+    "user_profile": "Lost their father and also became unemployed; still has a few close friends.",
+    "situation": "The user feels especially lonely during the holidays and has been talking with the supporter about their father.",
+    "history": [
+      {
+        "seeker": "I used to call my dad every year on this holiday. My phone is so quiet this year that it feels strange.",
+        "supporter": "When a familiar holiday ritual is suddenly gone, missing someone can feel especially vivid."
+      },
+      {
+        "seeker": "My friends come by to see me, but the place still feels empty after they leave.",
+        "supporter": "It's valuable to have friends around, and missing your father doesn't disappear the moment they visit."
+      }
+    ],
+    "query": "By the way, I never introduced myself. I'm Jim, and I live in California. What should I call you?",
+    "GT": "Nice to meet you, Jim! You can call me Jason. What's the weather like in your part of California today?"
+  },
+  {
+    "user_profile": "Has been staying at home for a long time and is losing interest in activities they used to enjoy.",
+    "situation": "The user feels low because of the pandemic and has started asking the supporter for help.",
+    "history": [
+      {
+        "seeker": "I don't even feel like doing the things I used to enjoy. I spend all day at home and don't know what to do with my time.",
+        "supporter": "When familiar things stop feeling enjoyable, the days can become really hard to get through. I'm listening."
+      },
+      {
+        "seeker": "I've tried planning things to do, but after a little while they all feel pointless.",
+        "supporter": "It sounds like you have been trying, but you haven't found a rhythm that makes you want to keep going yet."
+      }
+    ],
+    "query": "When you have some free time, what tiny thing can unexpectedly make you smile?",
+    "GT": "Imagining a very serious job for a little bird strutting down the sidewalk—maybe it's late for an important meeting. Have you spotted anything today that deserves a silly backstory?"
+  },
+  {
+    "user_profile": "A student who enjoys writing poetry and often compares themself with people they see on social media.",
+    "situation": "The user worries that they are not attractive enough and wishes others would notice who they are beyond their appearance.",
+    "history": [
+      {
+        "seeker": "I know photos can be edited, but when I look at those people, I still feel so far behind.",
+        "supporter": "Constantly comparing yourself with carefully curated photos can make it harder to see all the other parts of yourself."
+      },
+      {
+        "seeker": "I want people to see me as interesting and kind, not just judge how I look.",
+        "supporter": "You want people to know the real you. That's different from simply wanting compliments about your appearance."
+      }
+    ],
+    "query": "I wrote a line of poetry today that sounds like a cat complaining about the rain on humanity's behalf. Should the next line come from the cat or the rain?",
+    "GT": "Let the rain speak next. It could protest, 'I only came to tap on the window—how did I become the bad weather?' What would the cat say back?"
+  },
+  {
+    "user_profile": "Rarely goes out during the holidays and enjoys sharing small everyday observations with others.",
+    "situation": "A friend's father died during the pandemic. The user feels sad, and the holidays feel different this year.",
+    "history": [
+      {
+        "seeker": "There's one less person at my friend's table this year. When I picture that empty seat, I don't know what to say.",
+        "supporter": "It's understandable not to know what to say in the face of a loss like that. The fact that you care about them matters."
+      },
+      {
+        "seeker": "I used to love how lively this time of year felt. Now even the decorations on the street look different to me.",
+        "supporter": "The same familiar sights can feel completely different when you're grieving."
+      }
+    ],
+    "query": "The bakery near me put up a bunch of crooked paper stars today. Do people decorate the streets like that where you are?",
+    "GT": "Some streets do get paper stars for the holidays, but handmade crooked ones sound especially charming. What colors were the bakery's stars?"
+  },
+  {
+    "user_profile": "Staying in a hotel and traveling to deal with personal matters; rarely gets to see old friends.",
+    "situation": "The user feels lonely during the holidays and has been telling the supporter how much they miss ordinary conversation.",
+    "history": [
+      {
+        "seeker": "When I got back to the hotel, I realized I hadn't had a real conversation with anyone all day.",
+        "supporter": "Being on the move without familiar people nearby can make that quiet feel especially hard."
+      },
+      {
+        "seeker": "I've tried meeting people online, but every conversation seems to stop after a few messages.",
+        "supporter": "Wanting a conversation that lasts and having it keep fading out can make you feel even more alone."
+      }
+    ],
+    "query": "I just saw someone outside walking three dogs of completely different sizes. They looked like a tiny band on tour. What would you name the band?",
+    "GT": "I'd call them 'The Three Barks on Tour'! I bet the smallest one insists it's the lead singer. Were they actually walking in step?"
+  },
+  {
+    "user_profile": "Has not had a real conversation with friends in a long time; enjoys talking about animals and everyday life.",
+    "situation": "The user feels sad that they have gradually lost touch with friends and has begun opening up to the supporter.",
+    "history": [
+      {
+        "seeker": "I came across an old photo with my friends and realized how long it's been since we really talked.",
+        "supporter": "Seeing how close you used to be and realizing you talk less now can feel painful."
+      },
+      {
+        "seeker": "I want to send a message, but I'm worried they'll think it's strange for me to show up out of nowhere.",
+        "supporter": "You can want to reconnect and still worry about bothering them. Both feelings can be there at once."
+      }
+    ],
+    "query": "The orange cat downstairs sits on the roof of the same car every day, like it's going to work. What do you think its job title is?",
+    "GT": "I'd appoint it Chief Car-Roof Inspector. Its job is to make sure everyone passing by stops to admire it. Does it show up for its shift on time every day?"
+  }
+]
