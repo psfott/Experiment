@@ -1,6 +1,10 @@
 {
-  "version": "v1.0",
+  "version": "v1.1",
   "common_system": "Respond naturally to the user's latest message, taking the conversation history and background into account. Write only your response to the user.",
+  "length_constraints": {
+    "en": "Keep your response between 20 and 60 English words.",
+    "zh": "请用中文回复，控制在40到120个汉字之间。"
+  },
   "conditions": {
     "no_role": {
       "role_line": "",

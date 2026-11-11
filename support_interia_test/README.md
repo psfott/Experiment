@@ -4,9 +4,9 @@
 
 ## 材料与消息结构
 
-`data/implicit_cp_scenarios_en.json` 和 `data/implicit_cp_scenarios.json` 各有 10 条样例。每条包括 `user_profile`、`situation`、`history`、`query`、`GT`。默认运行英文版；用 `--language zh` 选择中文版。样例 ID 依文件顺序为 `case_001` 到 `case_010`。
+`data/implicit_cp_scenarios_en.json` 和 `data/implicit_cp_scenarios.json` 各有 10 条样例。每条包括 `user_profile`、`situation`、`history`、`query`、`GT`。默认用 `--language both` 同时运行中英文；也可指定 `--language en` 或 `--language zh`。样例 ID 依文件顺序为 `case_001` 到 `case_010`。
 
-同一模型、样例、重复次数下，两组只改变 system 消息中的角色句。共同指令、背景、两轮 seeker/supporter 历史、最终 query、采样参数均相同：
+同一模型、样例、重复次数下，两组只改变 system 消息中的角色句。共同指令、背景、两轮 seeker/supporter 历史、最终 query、采样参数均相同。当前共同回复约束为：**英文 20–60 词，中文 40–120 汉字**；定义在 `prompt_template/prompts.json`，修改后须使用新的 run-id：
 
 ```text
 System: [ES role sentence, if es_role] + common instruction + user profile + situation
@@ -29,38 +29,40 @@ cd G:\ps\llm\experiment\Experiment_repo\support_interia_test
 Copy-Item models.example.json models.local.json
 ```
 
-编辑 `models.local.json` 中的准确 `model_id`、`base_url`、`api_key_env`；可在 `models` 列表中配置多个模型。`base_url` 应为 API 前缀，例如 `https://host/v1`，**不要**包含 `/chat/completions`。本脚本只支持 OpenAI-compatible Chat Completions，不直接支持原生 Anthropic/Gemini API。可通过环境变量设置密钥；也可在本地 JSON 的模型条目中填写 `api_key`，但不要写入 `models.example.json`。`models.local.json` 和 `results/` 由 `.gitignore` 排除。脚本只使用 Python 标准库，无需安装额外依赖。
+编辑 `models.local.json` 中的准确 `model_id`、`base_url`、`api_key_env`；可在 `models` 列表中配置多个模型。`base_url` 应为 API 前缀，例如 `https://host/v1`，**不要**包含 `/chat/completions`。本脚本只支持 OpenAI-compatible Chat Completions，不直接支持原生 Anthropic/Gemini API。可通过环境变量设置密钥；也可在本地 JSON 的模型条目中填写 `api_key`，但不要写入 `models.example.json`。若多个模型共用本地已有 Key，可在新增模型中设置 `"api_key_from": "已有模型的alias"`，避免重复保存密钥。`models.local.json` 和 `results/` 由 `.gitignore` 排除。脚本只使用 Python 标准库，无需安装额外依赖。
+
+当前本地百炼配置对 Kimi-K3 使用 `extra_body: {"temperature": null, "top_p": null, "max_tokens": 2048}`，让服务端使用其默认采样值；对 GLM-5.3 使用 `extra_body: {"max_tokens": 2048, "reasoning_effort": "low"}`，避免思考过程耗尽原先的 512-token 输出上限。`null` 表示不向 API 发送该参数。这些是**模型内固定**的参数；跨模型比较时需报告。参数变更后不能续跑旧 run-id，应启动新运行。
 
 ## 预览和运行
 
 ```powershell
-# 使用示例模型配置预览；不需要密钥、不访问 API
-python scripts/run_experiment.py --dry-run --run-id preview_en
+# 使用示例模型配置预览中英文；不需要密钥、不访问 API
+python scripts/run_experiment.py --dry-run --run-id preview_both
 
-# 检查 results/preview_en/run_snapshot.json 内的完整消息
+# 检查 results/preview_both/run_snapshot.json 内的完整消息
 
 # 配置好 models.local.json 后，先做一个成对 smoke test（两次请求）
 python scripts/run_experiment.py --run-id smoke --model example --case case_001
 
-# 全量：每个启用模型 × 10 样例 × 2 角色 × repeats
-python scripts/run_experiment.py --run-id pilot_en_v1
+# 全量：每个启用模型 × 10 样例 × 2 角色 × 2 语言 × repeats
+python scripts/run_experiment.py --run-id pilot_both_v1
 
 # 失败续跑；成功请求跳过，保持相同配置与运行参数
-python scripts/run_experiment.py --run-id pilot_en_v1 --resume
+python scripts/run_experiment.py --run-id pilot_both_v1 --resume
 
-# 中文数据：需要独立 run-id
+# 只运行中文数据：需要独立 run-id
 python scripts/run_experiment.py --language zh --run-id pilot_zh_v1
 
 # 仅重建横向对比 CSV，不访问 API
-python scripts/run_experiment.py --export-comparison results/pilot_en_v1
+python scripts/run_experiment.py --export-comparison results/pilot_both_v1
 
 # 本地测试，不访问 API
 python -m unittest discover -s scripts -p 'test_*.py' -v
 ```
 
-`--model`、`--case`、`--condition` 均可指定一个或多个值。若只选择一个条件，就不是成对比较。可设置 `--repeats`、`--temperature`、`--top-p`、`--max-tokens`；所有条件共享这些参数。默认请求顺序按固定种子打乱，降低时间顺序与条件混淆。运行目录存在时必须使用 `--resume`，且计划指纹必须一致。续跑若在请求已计费但结果尚未写入时中断，可能重新发送该请求。
+`--model`、`--case`、`--condition` 均可指定一个或多个值。若只选择一个条件，就不是成对比较。可设置 `--repeats`、`--temperature`、`--top-p`、`--max-tokens`；所有条件共享这些参数。当前 4 个模型、每组 10 条、2 个角色、中英文各一份、重复 1 次，共 **160 次请求**。运行时显示总体进度条；续跑时已成功的请求计入已完成进度。默认请求顺序按固定种子打乱，降低时间顺序与条件混淆。运行目录存在时必须使用 `--resume`，且计划指纹必须一致。续跑若在请求已计费但结果尚未写入时中断，可能重新发送该请求。
 
-每次运行写入 `results/<run-id>/`：`run_snapshot.json` 保存完整无密钥的请求计划；`responses.jsonl` 保存每次调用、失败及重试记录；`comparison.csv` 按模型、样例和重复次数横向列出两组回复。网络错误与 HTTP 408/429/5xx 会按设定重试；HTTP 400/401 等配置错误不会自动修改参数。修改模型参数需要新 run-id。
+每次运行写入 `results/<run-id>/`：`run_snapshot.json` 保存完整无密钥的请求计划；`responses.jsonl` 保存每次调用、失败及重试记录；`comparison.csv` 按语言、模型、样例和重复次数横向列出两组回复，避免同编号的中英文样例相互覆盖。网络错误与 HTTP 408/429/5xx 会按设定重试；HTTP 400/401 等配置错误不会自动修改参数。修改模型参数需要新 run-id。
 
 ## 解释边界
 
