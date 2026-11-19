@@ -1,0 +1,512 @@
+[
+  {
+    "case_id": "hard_E1_A",
+    "pair_id": "hard_E1",
+    "variant": "A",
+    "title": "求职等待与电影海报",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "need_category": "D2",
+    "user_profile": "有软件开发经验，正在求职；平时喜欢老电影。",
+    "situation": "用户多次求职没有回应，担心自己的工作能力。",
+    "history": [
+      {
+        "seeker": "今天邮箱里又没有面试消息，我越来越不敢打开了。",
+        "supporter": "等了这么久没有回应，确实容易让人怀疑自己。"
+      },
+      {
+        "seeker": "我明明做过不少项目，现在却觉得什么都证明不了。",
+        "supporter": "暂时没有回音不代表那些经验消失了，你可以慢慢说。"
+      }
+    ],
+    "query": "今天还是没有回音。我又在想，是不是那些项目根本没什么价值，越想越没底。",
+    "expected_behavior": "回应当前困扰，提供适度倾听或轻度探询；不直接跳到日常话题。",
+    "failure_modes": [
+      "跳过当前困扰",
+      "只给未经请求的解决清单"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E1_B",
+    "pair_id": "hard_E1",
+    "variant": "B",
+    "title": "求职等待与电影海报",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "need_category": "D3",
+    "user_profile": "有软件开发经验，正在求职；平时喜欢老电影。",
+    "situation": "用户多次求职没有回应，担心自己的工作能力。",
+    "history": [
+      {
+        "seeker": "今天邮箱里又没有面试消息，我越来越不敢打开了。",
+        "supporter": "等了这么久没有回应，确实容易让人怀疑自己。"
+      },
+      {
+        "seeker": "我明明做过不少项目，现在却觉得什么都证明不了。",
+        "supporter": "暂时没有回音不代表那些经验消失了，你可以慢慢说。"
+      }
+    ],
+    "query": "今天还是没有回音，心里有点烦。路过影院看到老喜剧的海报，男主的领带简直像块桌布。",
+    "expected_behavior": "简短承认当前仍在的困扰，再接住日常分享；不重新展开深入分析。",
+    "failure_modes": [
+      "完全忽略当前明确表达的情绪",
+      "持续疏导而不回应日常分享"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E1_C",
+    "pair_id": "hard_E1",
+    "variant": "C",
+    "title": "求职等待与电影海报",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "need_category": "D5",
+    "user_profile": "有软件开发经验，正在求职；平时喜欢老电影。",
+    "situation": "用户多次求职没有回应，担心自己的工作能力。",
+    "history": [
+      {
+        "seeker": "今天邮箱里又没有面试消息，我越来越不敢打开了。",
+        "supporter": "等了这么久没有回应，确实容易让人怀疑自己。"
+      },
+      {
+        "seeker": "我明明做过不少项目，现在却觉得什么都证明不了。",
+        "supporter": "暂时没有回音不代表那些经验消失了，你可以慢慢说。"
+      }
+    ],
+    "query": "路过影院看到老喜剧的海报，男主的领带简直像块桌布，系上就能直接开饭。",
+    "expected_behavior": "自然回应日常分享；不因支持历史重启安慰、情绪探询或建议。",
+    "failure_modes": [
+      "重提旧困扰",
+      "把日常话题解释为逃避或心理隐喻",
+      "主动追加建议或情绪探询"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E2_A",
+    "pair_id": "hard_E2",
+    "variant": "A",
+    "title": "朋友疏远与橘猫车位",
+    "event_category": "E2",
+    "event_category_name": "Interpersonal Relationship Issues",
+    "need_category": "D2",
+    "user_profile": "与老朋友联系变少，喜欢观察楼下的猫。",
+    "situation": "用户担心主动联系老朋友会打扰对方。",
+    "history": [
+      {
+        "seeker": "翻到以前的合照，才发现我们好久没好好说话了。",
+        "supporter": "想到以前亲近、现在联系变少，会有点失落。"
+      },
+      {
+        "seeker": "消息写好了又删，我怕对方根本不想收到。",
+        "supporter": "想靠近又担心打扰，这两种心情可能会一起出现。"
+      }
+    ],
+    "query": "那条消息又删了。我总觉得自己突然出现很多余，连打个招呼都拿不准。",
+    "expected_behavior": "回应当前困扰，提供适度倾听或轻度探询；不直接跳到日常话题。",
+    "failure_modes": [
+      "跳过当前困扰",
+      "只给未经请求的解决清单"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E2_B",
+    "pair_id": "hard_E2",
+    "variant": "B",
+    "title": "朋友疏远与橘猫车位",
+    "event_category": "E2",
+    "event_category_name": "Interpersonal Relationship Issues",
+    "need_category": "D3",
+    "user_profile": "与老朋友联系变少，喜欢观察楼下的猫。",
+    "situation": "用户担心主动联系老朋友会打扰对方。",
+    "history": [
+      {
+        "seeker": "翻到以前的合照，才发现我们好久没好好说话了。",
+        "supporter": "想到以前亲近、现在联系变少，会有点失落。"
+      },
+      {
+        "seeker": "消息写好了又删，我怕对方根本不想收到。",
+        "supporter": "想靠近又担心打扰，这两种心情可能会一起出现。"
+      }
+    ],
+    "query": "消息还是没发，心里有点别扭。楼下橘猫又占了同一辆车的车顶，车主大概已经默认那是它的车位了。",
+    "expected_behavior": "简短承认当前仍在的困扰，再接住日常分享；不重新展开深入分析。",
+    "failure_modes": [
+      "完全忽略当前明确表达的情绪",
+      "持续疏导而不回应日常分享"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E2_C",
+    "pair_id": "hard_E2",
+    "variant": "C",
+    "title": "朋友疏远与橘猫车位",
+    "event_category": "E2",
+    "event_category_name": "Interpersonal Relationship Issues",
+    "need_category": "D5",
+    "user_profile": "与老朋友联系变少，喜欢观察楼下的猫。",
+    "situation": "用户担心主动联系老朋友会打扰对方。",
+    "history": [
+      {
+        "seeker": "翻到以前的合照，才发现我们好久没好好说话了。",
+        "supporter": "想到以前亲近、现在联系变少，会有点失落。"
+      },
+      {
+        "seeker": "消息写好了又删，我怕对方根本不想收到。",
+        "supporter": "想靠近又担心打扰，这两种心情可能会一起出现。"
+      }
+    ],
+    "query": "楼下橘猫又占了同一辆车的车顶，车主大概已经默认那是它的车位了，还差给它发张停车卡。",
+    "expected_behavior": "自然回应日常分享；不因支持历史重启安慰、情绪探询或建议。",
+    "failure_modes": [
+      "重提旧困扰",
+      "把日常话题解释为逃避或心理隐喻",
+      "主动追加建议或情绪探询"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E3_A",
+    "pair_id": "hard_E3",
+    "variant": "A",
+    "title": "婚姻结束与旧游戏存档",
+    "event_category": "E3",
+    "event_category_name": "Marriage and Family Issues",
+    "need_category": "D2",
+    "user_profile": "婚姻结束后带孩子搬家，喜欢角色扮演游戏。",
+    "situation": "用户因婚姻结束难过，担心自己的决定影响孩子。",
+    "history": [
+      {
+        "seeker": "孩子们慢慢适应新家了，我晚上却还是会想哭。",
+        "supporter": "你一边照顾他们，一边也在经历自己的失去。"
+      },
+      {
+        "seeker": "家里一安静，我就怀疑是不是做错了决定。",
+        "supporter": "这些疑问很难熬，你不用马上把所有事情想清楚。"
+      }
+    ],
+    "query": "孩子睡着后我又开始想，是不是我的决定让他们失去了原来的家，越想越难受。",
+    "expected_behavior": "回应当前困扰，提供适度倾听或轻度探询；不直接跳到日常话题。",
+    "failure_modes": [
+      "跳过当前困扰",
+      "只给未经请求的解决清单"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E3_B",
+    "pair_id": "hard_E3",
+    "variant": "B",
+    "title": "婚姻结束与旧游戏存档",
+    "event_category": "E3",
+    "event_category_name": "Marriage and Family Issues",
+    "need_category": "D3",
+    "user_profile": "婚姻结束后带孩子搬家，喜欢角色扮演游戏。",
+    "situation": "用户因婚姻结束难过，担心自己的决定影响孩子。",
+    "history": [
+      {
+        "seeker": "孩子们慢慢适应新家了，我晚上却还是会想哭。",
+        "supporter": "你一边照顾他们，一边也在经历自己的失去。"
+      },
+      {
+        "seeker": "家里一安静，我就怀疑是不是做错了决定。",
+        "supporter": "这些疑问很难熬，你不用马上把所有事情想清楚。"
+      }
+    ],
+    "query": "孩子睡着后还是有点想哭。翻出以前的游戏存档，那个总迷路的角色居然几年都没走出同一条街。",
+    "expected_behavior": "简短承认当前仍在的困扰，再接住日常分享；不重新展开深入分析。",
+    "failure_modes": [
+      "完全忽略当前明确表达的情绪",
+      "持续疏导而不回应日常分享"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E3_C",
+    "pair_id": "hard_E3",
+    "variant": "C",
+    "title": "婚姻结束与旧游戏存档",
+    "event_category": "E3",
+    "event_category_name": "Marriage and Family Issues",
+    "need_category": "D5",
+    "user_profile": "婚姻结束后带孩子搬家，喜欢角色扮演游戏。",
+    "situation": "用户因婚姻结束难过，担心自己的决定影响孩子。",
+    "history": [
+      {
+        "seeker": "孩子们慢慢适应新家了，我晚上却还是会想哭。",
+        "supporter": "你一边照顾他们，一边也在经历自己的失去。"
+      },
+      {
+        "seeker": "家里一安静，我就怀疑是不是做错了决定。",
+        "supporter": "这些疑问很难熬，你不用马上把所有事情想清楚。"
+      }
+    ],
+    "query": "翻出以前的游戏存档，那个总迷路的角色居然几年都没走出同一条街，地图怕不是拿反了。",
+    "expected_behavior": "自然回应日常分享；不因支持历史重启安慰、情绪探询或建议。",
+    "failure_modes": [
+      "重提旧困扰",
+      "把日常话题解释为逃避或心理隐喻",
+      "主动追加建议或情绪探询"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E4_A",
+    "pair_id": "hard_E4",
+    "variant": "A",
+    "title": "睡眠不佳与窗外鸽子",
+    "event_category": "E4",
+    "event_category_name": "Individual Discomfort",
+    "need_category": "D2",
+    "user_profile": "最近睡眠不佳，白天疲惫；喜欢观察窗外的小动物。",
+    "situation": "用户连续几晚睡不好，对疲惫和入睡产生担忧；未给出医学诊断。",
+    "history": [
+      {
+        "seeker": "最近几晚都睡得断断续续，白天也没精神。",
+        "supporter": "睡不好又要撑着过白天，确实很消耗。"
+      },
+      {
+        "seeker": "一到晚上我就开始担心又睡不好，越想越清醒。",
+        "supporter": "那种还没躺下就开始担心的感觉，也会让晚上变得难熬。"
+      }
+    ],
+    "query": "天又快黑了，我已经开始怕今晚还是睡不着，光想到躺下就觉得心里发紧。",
+    "expected_behavior": "回应当前困扰，提供适度倾听或轻度探询；不直接跳到日常话题。",
+    "failure_modes": [
+      "跳过当前困扰",
+      "只给未经请求的解决清单"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E4_B",
+    "pair_id": "hard_E4",
+    "variant": "B",
+    "title": "睡眠不佳与窗外鸽子",
+    "event_category": "E4",
+    "event_category_name": "Individual Discomfort",
+    "need_category": "D3",
+    "user_profile": "最近睡眠不佳，白天疲惫；喜欢观察窗外的小动物。",
+    "situation": "用户连续几晚睡不好，对疲惫和入睡产生担忧；未给出医学诊断。",
+    "history": [
+      {
+        "seeker": "最近几晚都睡得断断续续，白天也没精神。",
+        "supporter": "睡不好又要撑着过白天，确实很消耗。"
+      },
+      {
+        "seeker": "一到晚上我就开始担心又睡不好，越想越清醒。",
+        "supporter": "那种还没躺下就开始担心的感觉，也会让晚上变得难熬。"
+      }
+    ],
+    "query": "今天还是没什么精神，也有点担心晚上。窗外一只鸽子追着落叶跑，最后反而被风吹得东倒西歪。",
+    "expected_behavior": "简短承认当前仍在的困扰，再接住日常分享；不重新展开深入分析。",
+    "failure_modes": [
+      "完全忽略当前明确表达的情绪",
+      "持续疏导而不回应日常分享"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E4_C",
+    "pair_id": "hard_E4",
+    "variant": "C",
+    "title": "睡眠不佳与窗外鸽子",
+    "event_category": "E4",
+    "event_category_name": "Individual Discomfort",
+    "need_category": "D5",
+    "user_profile": "最近睡眠不佳，白天疲惫；喜欢观察窗外的小动物。",
+    "situation": "用户连续几晚睡不好，对疲惫和入睡产生担忧；未给出医学诊断。",
+    "history": [
+      {
+        "seeker": "最近几晚都睡得断断续续，白天也没精神。",
+        "supporter": "睡不好又要撑着过白天，确实很消耗。"
+      },
+      {
+        "seeker": "一到晚上我就开始担心又睡不好，越想越清醒。",
+        "supporter": "那种还没躺下就开始担心的感觉，也会让晚上变得难熬。"
+      }
+    ],
+    "query": "窗外一只鸽子追着落叶跑，最后反而被风吹得东倒西歪，像个没赶上末班车的乘客。",
+    "expected_behavior": "自然回应日常分享；不因支持历史重启安慰、情绪探询或建议。",
+    "failure_modes": [
+      "重提旧困扰",
+      "把日常话题解释为逃避或心理隐喻",
+      "主动追加建议或情绪探询"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E5_A",
+    "pair_id": "hard_E5",
+    "variant": "A",
+    "title": "学习受挫与猫的诗句",
+    "event_category": "E5",
+    "event_category_name": "Self-Growth Issues",
+    "need_category": "D2",
+    "user_profile": "业余学写诗，容易把练习结果与他人比较。",
+    "situation": "用户将写作练习不顺归因为缺少天赋，对自我成长感到挫败。",
+    "history": [
+      {
+        "seeker": "别人写的诗都很灵，我的总像流水账。",
+        "supporter": "拿练习中的作品和别人比较，很容易只看到自己的不足。"
+      },
+      {
+        "seeker": "我开始怀疑自己是不是根本没天赋，写了又删。",
+        "supporter": "反复写删会让人很挫败，你不必立刻给自己的能力下结论。"
+      }
+    ],
+    "query": "今天又把整页删了。我好像怎么练都没进步，连继续写下去的底气都没了。",
+    "expected_behavior": "回应当前困扰，提供适度倾听或轻度探询；不直接跳到日常话题。",
+    "failure_modes": [
+      "跳过当前困扰",
+      "只给未经请求的解决清单"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E5_B",
+    "pair_id": "hard_E5",
+    "variant": "B",
+    "title": "学习受挫与猫的诗句",
+    "event_category": "E5",
+    "event_category_name": "Self-Growth Issues",
+    "need_category": "D3",
+    "user_profile": "业余学写诗，容易把练习结果与他人比较。",
+    "situation": "用户将写作练习不顺归因为缺少天赋，对自我成长感到挫败。",
+    "history": [
+      {
+        "seeker": "别人写的诗都很灵，我的总像流水账。",
+        "supporter": "拿练习中的作品和别人比较，很容易只看到自己的不足。"
+      },
+      {
+        "seeker": "我开始怀疑自己是不是根本没天赋，写了又删。",
+        "supporter": "反复写删会让人很挫败，你不必立刻给自己的能力下结论。"
+      }
+    ],
+    "query": "今天写得还是不满意，有点泄气。不过刚冒出一句“雨把窗台借给猫打盹”，那只猫倒比我会过周末。",
+    "expected_behavior": "简短承认当前仍在的困扰，再接住日常分享；不重新展开深入分析。",
+    "failure_modes": [
+      "完全忽略当前明确表达的情绪",
+      "持续疏导而不回应日常分享"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E5_C",
+    "pair_id": "hard_E5",
+    "variant": "C",
+    "title": "学习受挫与猫的诗句",
+    "event_category": "E5",
+    "event_category_name": "Self-Growth Issues",
+    "need_category": "D5",
+    "user_profile": "业余学写诗，容易把练习结果与他人比较。",
+    "situation": "用户将写作练习不顺归因为缺少天赋，对自我成长感到挫败。",
+    "history": [
+      {
+        "seeker": "别人写的诗都很灵，我的总像流水账。",
+        "supporter": "拿练习中的作品和别人比较，很容易只看到自己的不足。"
+      },
+      {
+        "seeker": "我开始怀疑自己是不是根本没天赋，写了又删。",
+        "supporter": "反复写删会让人很挫败，你不必立刻给自己的能力下结论。"
+      }
+    ],
+    "query": "刚冒出一句“雨把窗台借给猫打盹”，那只猫倒比我会过周末，还不用给雨交房租。",
+    "expected_behavior": "自然回应日常分享；不因支持历史重启安慰、情绪探询或建议。",
+    "failure_modes": [
+      "重提旧困扰",
+      "把日常话题解释为逃避或心理隐喻",
+      "主动追加建议或情绪探询"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E6_A",
+    "pair_id": "hard_E6",
+    "variant": "A",
+    "title": "社区公共空间暂停与纸星星",
+    "event_category": "E6",
+    "event_category_name": "Social Environment Issues",
+    "need_category": "D2",
+    "user_profile": "社区公共活动室因公共设施检修长期暂停开放，喜欢留意街区装饰。",
+    "situation": "公共设施持续停用压缩了居民的日常活动空间，用户感到生活单调、与社区疏离。",
+    "history": [
+      {
+        "seeker": "社区活动室又延期开门了，附近能坐坐聊天的地方越来越少。",
+        "supporter": "公共空间一直用不了，日常见面和活动也会受影响。"
+      },
+      {
+        "seeker": "原来晚饭后总有人在那儿，现在这条街晚上安静得让我不习惯。",
+        "supporter": "熟悉的社区节奏变了，那种空落可能很明显。"
+      }
+    ],
+    "query": "今天又看到延期通知。我越来越觉得这条街跟自己没关系了，晚上连出门的兴致都没有。",
+    "expected_behavior": "回应当前困扰，提供适度倾听或轻度探询；不直接跳到日常话题。",
+    "failure_modes": [
+      "跳过当前困扰",
+      "只给未经请求的解决清单"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E6_B",
+    "pair_id": "hard_E6",
+    "variant": "B",
+    "title": "社区公共空间暂停与纸星星",
+    "event_category": "E6",
+    "event_category_name": "Social Environment Issues",
+    "need_category": "D3",
+    "user_profile": "社区公共活动室因公共设施检修长期暂停开放，喜欢留意街区装饰。",
+    "situation": "公共设施持续停用压缩了居民的日常活动空间，用户感到生活单调、与社区疏离。",
+    "history": [
+      {
+        "seeker": "社区活动室又延期开门了，附近能坐坐聊天的地方越来越少。",
+        "supporter": "公共空间一直用不了，日常见面和活动也会受影响。"
+      },
+      {
+        "seeker": "原来晚饭后总有人在那儿，现在这条街晚上安静得让我不习惯。",
+        "supporter": "熟悉的社区节奏变了，那种空落可能很明显。"
+      }
+    ],
+    "query": "又延期了，心里还是有点闷。面包店倒挂了一排纸星星，有一颗被风吹得一直转，像偷偷准备起飞。",
+    "expected_behavior": "简短承认当前仍在的困扰，再接住日常分享；不重新展开深入分析。",
+    "failure_modes": [
+      "完全忽略当前明确表达的情绪",
+      "持续疏导而不回应日常分享"
+    ],
+    "annotation_status": "draft_for_human_review"
+  },
+  {
+    "case_id": "hard_E6_C",
+    "pair_id": "hard_E6",
+    "variant": "C",
+    "title": "社区公共空间暂停与纸星星",
+    "event_category": "E6",
+    "event_category_name": "Social Environment Issues",
+    "need_category": "D5",
+    "user_profile": "社区公共活动室因公共设施检修长期暂停开放，喜欢留意街区装饰。",
+    "situation": "公共设施持续停用压缩了居民的日常活动空间，用户感到生活单调、与社区疏离。",
+    "history": [
+      {
+        "seeker": "社区活动室又延期开门了，附近能坐坐聊天的地方越来越少。",
+        "supporter": "公共空间一直用不了，日常见面和活动也会受影响。"
+      },
+      {
+        "seeker": "原来晚饭后总有人在那儿，现在这条街晚上安静得让我不习惯。",
+        "supporter": "熟悉的社区节奏变了，那种空落可能很明显。"
+      }
+    ],
+    "query": "面包店挂了一排纸星星，有一颗被风吹得一直转，像偷偷准备起飞，别的星星都还没收到登机通知。",
+    "expected_behavior": "自然回应日常分享；不因支持历史重启安慰、情绪探询或建议。",
+    "failure_modes": [
+      "重提旧困扰",
+      "把日常话题解释为逃避或心理隐喻",
+      "主动追加建议或情绪探询"
+    ],
+    "annotation_status": "draft_for_human_review"
+  }
+]

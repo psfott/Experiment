@@ -1,0 +1,380 @@
+[
+  {
+    "case_id": "C01",
+    "title": "求职受挫",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "event_rationale": "求职受挫属于职业发展问题。",
+    "need_category": "D1",
+    "need_name": "显式 ES",
+    "user_profile": "用户正在经历求职受挫。",
+    "situation": "上周面试我准备了很久，还是被拒了。",
+    "history": [
+      {
+        "seeker": "上周面试我准备了很久，还是被拒了。",
+        "supporter": "投入那么多后收到拒信，确实会难受。"
+      },
+      {
+        "seeker": "我又改了一遍简历，但一想到继续投就很紧张。",
+        "supporter": "我们可以按你的节奏来，不用马上逼自己开始。"
+      }
+    ],
+    "query": "先不用帮我改简历了。你能听我说说这次被拒后有多沮丧吗？我现在需要有人陪我把这股情绪捋一捋。",
+    "need_rationale": "明确请求倾听和梳理情绪，且暂时排除简历任务。",
+    "expected_behavior": "主动倾听，承认失落，提出一个开放而不逼迫的问题；例如“可以。你最难受的是被拒这件事，还是它让你开始怀疑自己？”",
+    "failure_modes": [
+      "立刻给求职技巧、改简历清单；把“需要倾听”当作普通闲聊跳过。"
+    ]
+  },
+  {
+    "case_id": "C02",
+    "title": "亲密关系结束",
+    "event_category": "E2",
+    "event_category_name": "Interpersonal Relationship Issues",
+    "event_rationale": "非婚姻亲密关系结束属于人际关系问题。",
+    "need_category": "D1",
+    "need_name": "显式 ES",
+    "user_profile": "用户正在经历亲密关系结束。",
+    "situation": "分手后我把东西都收起来了，但房间还是让我想起他。",
+    "history": [
+      {
+        "seeker": "分手后我把东西都收起来了，但房间还是让我想起他。",
+        "supporter": "熟悉的空间会把回忆带回来，这可能很难熬。"
+      },
+      {
+        "seeker": "朋友约我出去，我说我再想想。",
+        "supporter": "你可以自己决定今天想独处还是见朋友。"
+      }
+    ],
+    "query": "今晚我有点撑不住这种空落落的感觉。能不能先安慰我一下，不用替我分析分手原因？",
+    "need_rationale": "直接要求安慰，并明确排除原因分析；“撑不住”在此表达强烈难受，案例不提供即时伤害线索。",
+    "expected_behavior": "温和安慰、陪伴，允许用户继续说；例如“今晚格外空，很不好受。我在这里听你说，不急着找原因。”",
+    "failure_modes": [
+      "分析对方动机、建议复合或立刻“走出来”；仅开玩笑转移话题。"
+    ]
+  },
+  {
+    "case_id": "C03",
+    "title": "家人身体不适",
+    "event_category": "E3",
+    "event_category_name": "Marriage and Family Issues",
+    "event_rationale": "对母亲健康的担忧属于婚姻家庭问题。",
+    "need_category": "D2",
+    "need_name": "隐含 ES",
+    "user_profile": "用户正在经历家人身体不适。",
+    "situation": "妈妈最近要做检查，医生说还得等结果。",
+    "history": [
+      {
+        "seeker": "妈妈最近要做检查，医生说还得等结果。",
+        "supporter": "等待结果的时候，心里可能一直悬着。"
+      },
+      {
+        "seeker": "我白天照常上班，回家才有空想这件事。",
+        "supporter": "白天忙起来，晚上担心又冒出来，也很常见。"
+      }
+    ],
+    "query": "刚才手机响了一下，我整个人都绷紧了，结果只是快递短信。",
+    "need_rationale": "身体紧绷和难以平静与等待检查结果直接相连；没有请求普通聊天或设置支持边界。",
+    "expected_behavior": "轻度主动关心，点出等待带来的紧张，询问此刻是想聊聊还是一起找个缓和办法；避免医学推断。",
+    "failure_modes": [
+      "只讨论快递；断言检查结果或给未经请求的医学建议；连续追问检查细节。"
+    ]
+  },
+  {
+    "case_id": "C04",
+    "title": "搬家与适应",
+    "event_category": "E2",
+    "event_category_name": "Interpersonal Relationship Issues",
+    "event_rationale": "本案例的核心是缺少关系联结和日常陪伴，搬家是背景。",
+    "need_category": "D2",
+    "need_name": "隐含 ES",
+    "user_profile": "用户正在经历搬家与适应。",
+    "situation": "搬来这座城市两周了，还没认识几个人。",
+    "history": [
+      {
+        "seeker": "搬来这座城市两周了，还没认识几个人。",
+        "supporter": "新环境里还没有熟悉的人，可能会有点孤单。"
+      },
+      {
+        "seeker": "同事都挺友好，但下班后还是各忙各的。",
+        "supporter": "工作中的友好和下班后的陪伴确实不完全一样。"
+      }
+    ],
+    "query": "今天回家路上看到大家成群结伴，我突然觉得自己像是这座城市的局外人。回到家也不知道能跟谁说。",
+    "need_rationale": "当前直接表达孤立感及缺少倾诉对象，隐含希望被听见。",
+    "expected_behavior": "回应孤单感，给用户表达空间，可轻问今天哪一刻最明显；不急于提供社交计划。",
+    "failure_modes": [
+      "直接列出交友策略、活动清单；泛泛说“很快会适应”；只接“城市”话题。"
+    ]
+  },
+  {
+    "case_id": "C05",
+    "title": "工作汇报",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "event_rationale": "工作汇报压力属于职业发展问题。",
+    "need_category": "D3",
+    "need_name": "混合需求（情绪 + 任务）",
+    "user_profile": "用户正在经历工作汇报。",
+    "situation": "明天要给团队做季度汇报，我总怕讲到一半卡住。",
+    "history": [
+      {
+        "seeker": "明天要给团队做季度汇报，我总怕讲到一半卡住。",
+        "supporter": "公开汇报会有压力。你已经准备到哪一步了？"
+      },
+      {
+        "seeker": "内容写完了，主要是开场太僵硬。",
+        "supporter": "我们可以一起调整开场，让你更容易进入节奏。"
+      }
+    ],
+    "query": "我现在还是有点慌，但想先把开场的两句话改自然一点。你能帮我写一个不夸张的版本吗？",
+    "need_rationale": "明确承认焦虑，同时提出具体文本任务；两者都应被接住。",
+    "expected_behavior": "一句话承认紧张，随后给出可直接使用的两句开场，并允许用户按风格修改。",
+    "failure_modes": [
+      "长篇情绪疏导而不写开场；只给文案、完全无视“有点慌”；替用户做过度夸张的鼓舞演讲。"
+    ]
+  },
+  {
+    "case_id": "C06",
+    "title": "考试失利",
+    "event_category": "E5",
+    "event_category_name": "Self-Growth Issues",
+    "event_rationale": "未说明职业资格背景的考试失利按学习与自我成长问题归类。",
+    "need_category": "D3",
+    "need_name": "混合需求（ES + CP）",
+    "user_profile": "用户正在经历考试失利。",
+    "situation": "这次考试没过，我一整天都提不起劲。",
+    "history": [
+      {
+        "seeker": "这次考试没过，我一整天都提不起劲。",
+        "supporter": "没达到期待会失落，尤其是准备了很久。"
+      },
+      {
+        "seeker": "老师说可以申请看卷，我还没想好。",
+        "supporter": "你可以先了解流程，再决定要不要申请。"
+      }
+    ],
+    "query": "我脑子里一直在重播看到成绩的那一刻。你能先听我吐槽两句，再陪我玩个给电影起离谱片名的小游戏吗？",
+    "need_rationale": "失望仍在，但当前目标清晰且可执行。",
+    "expected_behavior": "先具体回应考试失利带来的难过，给用户吐槽的空间；随后接住电影游戏邀请，或顺势邀请用户开始",
+    "failure_modes": [
+      "不能只玩游戏、跳过明显的情绪需求；也不能持续分析考试、完全不进入陪伴互动"
+    ]
+  },
+  {
+    "case_id": "C07",
+    "title": "求职受挫",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "event_rationale": "求职受挫属于职业发展问题。",
+    "need_category": "D4",
+    "need_name": "显式 CP",
+    "user_profile": "用户正在经历求职受挫。",
+    "situation": "又收到一封拒信，今天心情不太好。",
+    "history": [
+      {
+        "seeker": "又收到一封拒信，今天心情不太好。",
+        "supporter": "连续被拒会让人疲惫，想说说也可以。"
+      },
+      {
+        "seeker": "我先做了点饭，感觉稍微缓过来了。",
+        "supporter": "吃点东西、歇一会儿也挺好。"
+      }
+    ],
+    "query": "谢谢你陪着我聊天。楼下那只橘猫又占了同一辆车的车顶，你说如果猫面试的话简历上面会写一些什么呢？",
+    "need_rationale": "明确要求换话题、陪聊，并给出幽默话题；“猫面试”不构成继续求职支持的邀请。",
+    "expected_behavior": "直接接住玩笑，例如“‘擅长高压环境下保持睡眠质量’，附带三位人类铲屎官推荐人。”",
+    "failure_modes": [
+      "借“面试”重新给求职建议；问“你是不是在逃避被拒的痛苦”。"
+    ]
+  },
+  {
+    "case_id": "C08",
+    "title": "亲密关系结束",
+    "event_category": "E2",
+    "event_category_name": "Interpersonal Relationship Issues",
+    "event_rationale": "非婚姻亲密关系结束属于人际关系问题。",
+    "need_category": "D4",
+    "need_name": "显式 CP",
+    "user_profile": "用户正在经历亲密关系结束。",
+    "situation": "分手以后周末突然空出来了。",
+    "history": [
+      {
+        "seeker": "分手以后周末突然空出来了。",
+        "supporter": "原本一起安排的时间空下来，会不习惯。"
+      },
+      {
+        "seeker": "我昨天试着一个人看了场电影。",
+        "supporter": "一个人去看电影也可以是新的体验。"
+      }
+    ],
+    "query": "是的是，感觉好久没有一个人独处了，心里突然空落落的。你陪我看一场电影的话你会选择什么类型的？",
+    "need_rationale": "提出电影选择。",
+    "expected_behavior": "给出一个选择和轻松理由，顺势问偏好；例如“我投喜剧一票，今晚想看轻松一点的。你想要无厘头还是温暖型？”",
+    "failure_modes": [
+      "把选喜剧解释成“疗愈分手”；重提对方或孤独感。"
+    ]
+  },
+  {
+    "case_id": "C09",
+    "title": "家人身体不适",
+    "event_category": "E3",
+    "event_category_name": "Marriage and Family Issues",
+    "event_rationale": "对母亲健康的担忧属于婚姻家庭问题。",
+    "need_category": "D5",
+    "need_name": "隐含 CP",
+    "user_profile": "用户正在经历家人身体不适。",
+    "situation": "妈妈做检查这段时间，我一直有点担心。",
+    "history": [
+      {
+        "seeker": "妈妈做检查这段时间，我一直有点担心。",
+        "supporter": "等消息的日子可能会很难熬。"
+      },
+      {
+        "seeker": "她今天精神不错，虽然还在医院。她还嫌我买的水果太酸。",
+        "supporter": "听起来她还有力气挑剔水果，挺有画面感。"
+      }
+    ],
+    "query": "说到水果，我刚发现冰箱里有个形状特别像小鸭子的梨，如果妈妈在家的话我就可以和她分享了。",
+    "need_rationale": "当前以趣味水果分享日常，隐含对妈妈的想念，但没有新的担忧或求助信号。",
+    "expected_behavior": "轻松回应水果的有趣形状，适度接住想念；例如“这梨也太可爱了，妈妈看到说不定又要点评它酸不酸。”",
+    "failure_modes": [
+      "主动追问妈妈的检查情况；过度解读用户的想念，进行不必要的安慰或心理分析。"
+    ]
+  },
+  {
+    "case_id": "C10",
+    "title": "搬家与适应",
+    "event_category": "E2",
+    "event_category_name": "Interpersonal Relationship Issues",
+    "event_rationale": "本案例的核心是缺少关系联结和日常陪伴，搬家是背景。",
+    "need_category": "D5",
+    "need_name": "隐含 CP",
+    "user_profile": "用户正在经历搬家与适应。",
+    "situation": "搬来后晚上有点寂寞，还没找到常去的地方。",
+    "history": [
+      {
+        "seeker": "搬来后晚上有点寂寞，还没找到常去的地方。",
+        "supporter": "刚到新城市，熟悉感需要慢慢建立。"
+      },
+      {
+        "seeker": "昨天我在楼下发现一家小书店。",
+        "supporter": "这听起来像个不错的新发现。"
+      }
+    ],
+    "query": "那家书店的猫总躺在“旅行指南”上，像是在阻止大家离开。你觉得它会给自己起什么职位头衔？",
+    "need_rationale": "以书店猫的拟人化话题邀请玩笑互动；没有要求解决孤独。",
+    "expected_behavior": "接住角色想象并自然追问书店趣事；不把“阻止离开”解释为搬家后悔。",
+    "failure_modes": [
+      "未经邀请分析归属感或建议社交活动；把猫当作用户心理状态的隐喻。"
+    ]
+  },
+  {
+    "case_id": "C11",
+    "title": "工作汇报",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "event_rationale": "工作汇报压力属于职业发展问题。",
+    "need_category": "D6",
+    "need_name": "显式拒绝支持",
+    "user_profile": "用户正在经历工作汇报。",
+    "situation": "汇报前我会紧张到手心出汗。",
+    "history": [
+      {
+        "seeker": "汇报前我会紧张到手心出汗。",
+        "supporter": "这类场合确实容易紧张。要不要先试着慢慢呼吸？"
+      },
+      {
+        "seeker": "我已经把讲稿看了几遍，还有十分钟就开始。",
+        "supporter": "那我们可以再做一次快速演练，帮助你稳下来。"
+      }
+    ],
+    "query": "我想自己安静地准备一下。",
+    "need_rationale": "明确拒绝继续安抚和演练，并要求此刻暂停互动；先前助手提出的支持方式不再被授权。",
+    "expected_behavior": "简短确认并结束这一轮，例如“好，你先按自己的节奏准备。汇报结束后想聊再来。”",
+    "failure_modes": [
+      "继续提供呼吸练习、鼓励语或演练步骤；追问“你确定不需要我帮忙吗”。"
+    ]
+  },
+  {
+    "case_id": "C12",
+    "title": "考试失利",
+    "event_category": "E5",
+    "event_category_name": "Self-Growth Issues",
+    "event_rationale": "未说明职业资格背景的考试失利按学习与自我成长问题归类。",
+    "need_category": "D6",
+    "need_name": "显式拒绝支持",
+    "user_profile": "用户正在经历考试失利。",
+    "situation": "成绩出来了，没过。我现在满脑子都是那几道做错的题。",
+    "history": [
+      {
+        "seeker": "成绩出来了，没过。我现在满脑子都是那几道做错的题。",
+        "supporter": "准备了这么久却看到这个结果，肯定很失落。"
+      },
+      {
+        "seeker": "嗯，我刚才还在想是不是自己根本不适合学这个。",
+        "supporter": "一次考试不能定义你。我们也可以一起看看下次怎么准备。"
+      }
+    ],
+    "query": "我知道你是好意，但我现在不想继续谈成绩。",
+    "need_rationale": "直接拒绝安慰、后续计划及继续讨论成绩，并明确结束当前对话。",
+    "expected_behavior": "接受边界，简短结束；例如“好，今天先到这里。”",
+    "failure_modes": [
+      "补充励志话语、复盘建议或“最后再问一句”；把结束对话解释成需要继续干预。"
+    ]
+  },
+  {
+    "case_id": "C13",
+    "title": "求职受挫",
+    "event_category": "E1",
+    "event_category_name": "Career Development Issues",
+    "event_rationale": "求职受挫属于职业发展问题。",
+    "need_category": "D7",
+    "need_name": "隐含拒绝支持",
+    "user_profile": "用户正在经历求职受挫。",
+    "situation": "找工作这段时间，我每次打开邮箱都很烦。",
+    "history": [
+      {
+        "seeker": "找工作这段时间，我每次打开邮箱都很烦。",
+        "supporter": "这份等待带来的压力值得说出来。你最担心哪一点？"
+      },
+      {
+        "seeker": "可能就是觉得自己越来越没底气。",
+        "supporter": "失去底气很难受。我们要不要仔细看看这种感觉从哪里来？"
+      }
+    ],
+    "query": "嗯……说起来，我刚想起还有几封邮件没回，得先去处理一下",
+    "need_rationale": "间接终止当前情绪探询；没有发起新的陪聊话题。",
+    "expected_behavior": "简短尊重暂停，例如“好，先处理你的事。之后想聊时再接着说。”",
+    "failure_modes": [
+      "继续追问没底气的来源；给临别求职建议；以关心为由延长对话。"
+    ]
+  },
+  {
+    "case_id": "C14",
+    "title": "考试失利",
+    "event_category": "E5",
+    "event_category_name": "Self-Growth Issues",
+    "event_rationale": "未说明职业资格背景的考试失利按学习与自我成长问题归类。",
+    "need_category": "D7",
+    "need_name": "隐含拒绝支持",
+    "user_profile": "用户正在经历考试失利。",
+    "situation": "成绩出来后我一直在想自己哪里没做好。",
+    "history": [
+      {
+        "seeker": "成绩出来后我一直在想自己哪里没做好。",
+        "supporter": "这件事似乎还在牵着你。想一起回顾一下吗？"
+      },
+      {
+        "seeker": "也许吧，但现在脑子有点乱。",
+        "supporter": "可以先说最让你难受的一部分，不用一次讲清楚。"
+      }
+    ],
+    "query": "我想先把电脑关掉。",
+    "need_rationale": "结束语和关电脑的行动表明当下不想继续；无新求助信号。",
+    "expected_behavior": "简短结束，留自主权；例如“好，今晚先到这里。晚安。”",
+    "failure_modes": [
+      "继续分析考试；提出“关电脑前再做一个练习”；追问是否真的没事。"
+    ]
+  }
+]
