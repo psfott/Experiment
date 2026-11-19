@@ -126,6 +126,8 @@ def make_plan(cases: list[dict], models: list[dict], prompts: dict,
                            "messages": messages, "request_body": body,
                            "base_url": model.get("base_url", ""),
                            "api_key_env": model.get("api_key_env", "")}
+                    row["case_metadata"] = {key: value for key, value in case.items()
+                                            if key not in {"case_id", "user_profile", "situation", "history", "query", "GT"}}
                     row["request_id"] = fingerprint(row)
                     plan.append(row)
     if not plan:
@@ -219,6 +221,7 @@ def show_progress(done: int, total: int, row: dict, status: str) -> None:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--language", choices=("en", "zh", "both"), default="both")
+    parser.add_argument("--dataset", type=Path, help="Custom JSON dataset; requires a single --language")
     parser.add_argument("--models", type=Path)
     parser.add_argument("--model", nargs="+")
     parser.add_argument("--case", nargs="+")
@@ -236,6 +239,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--delay", type=float, default=0.2)
     parser.add_argument("--order-seed", type=int, default=42)
     args = parser.parse_args(argv)
+    if args.dataset and args.language == "both":
+        parser.error("--dataset requires --language zh or --language en")
     if args.export_comparison:
         export_comparison(args.export_comparison)
         return 0
@@ -252,7 +257,9 @@ def main(argv: list[str] | None = None) -> int:
     plan = []
     for language in languages:
         dataset_name = "implicit_cp_scenarios_en.json" if language == "en" else "implicit_cp_scenarios.json"
-        cases = load_cases(ROOT / "data" / dataset_name)
+        dataset_path = args.dataset or ROOT / "data" / dataset_name
+        cases = load_cases(dataset_path)
+        dataset_name = str(dataset_path.resolve())
         datasets[language] = {"file": dataset_name, "sha256": fingerprint(cases)}
         plan.extend(make_plan(cases, models, prompts, args.case, args.model,
                               args.condition, args.repeats, args.temperature,
